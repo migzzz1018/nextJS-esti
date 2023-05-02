@@ -7,7 +7,11 @@ import {
     FaClipboard,
     FaRegBuilding,
     FaUser,
-    FaCalendar
+    FaCalendar,
+    FaCog,
+    FaExclamation,
+    FaSignOutAlt,
+    FaPhone
  } 
     from 
     "react-icons/fa"
@@ -17,7 +21,7 @@ export const Navbar = () => {
 
   return (
     <section className='w-80px flex flex-col items-center h-[calc(100vh_-_8px)] mt-1 ml-2 back rounded-xl bg-white text-black'>
-        <div className='logo'> E</div>
+        <div className='logo'>h</div>
         <div className='w-8 h-8'></div>
         <div className='components hover:componenthover'> <FaSearch size="20px"/></div>
         <div className='w-12 h-12'></div>
@@ -27,7 +31,14 @@ export const Navbar = () => {
         <div className='components'> <FaUser size="20px"/></div>
         <div className='components'> <FaCalendar size="20px"/></div>
         <div className='w-12 h-12'></div>
-        <Divider />
+        <div className='components'> <FaCog size="20px"/></div>
+        <div className='components'> <FaExclamation size="20px"/></div>
+        <div className='components'> <FaPhone size="20px"/></div>
+        <div className='w-12 h-12'></div>
+        <div className='w-12 h-12'></div>
+        <div className='flex grow justify-center items-end mb-3'>
+          <div className='components'><FaSignOutAlt size="20px"/></div>
+        </div>
 
     </section>
   )
