@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  box-sizing: border-box;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    box-sizing: border-box;
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@layer base {
+  .logo{
+    @apply flex text-white my-3 w-9 h-9 items-center bg-black justify-center rounded-xl
+  }
+
+  .components{
+    @apply w-12 h-12 flex justify-center items-center mt-1 cursor-pointer hover:componenthover
+  }
+}
+
+@layer utilities {
+  .componenthover{
+    @apply bg-blue-800 text-white transition-all rounded-xl
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
