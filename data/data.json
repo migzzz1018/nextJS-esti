@@ -1,0 +1,143 @@
+[
+    {
+        "projectName": "Construction of New Building",
+        "projectID": "22BD00073",
+        "projectEstimator": {
+            "name": "Migs Madriaga",
+            "ID": 2147109
+        },
+        "projectContractor": "M&M Construction",
+        "projectDuration": "180days",
+        "projectStart": "January 2, 2022",
+        "projectCost": 2000000,
+        "projectStatus": true,
+        "projectEngineers?": [
+            {
+                "name": "Migs Madriaga",
+                "position": "RE"
+            },
+            {
+                "name": "Hara Saquing",
+                "position": "PE"
+            },
+            {
+                "name": "Chewy",
+                "position": "ME"
+            }
+        ],
+        "projectEstimate": {
+            "projectID": "22BD00073",
+            "structural": {
+                "footing": [
+                    {
+                        "footname": "F-1",
+                        "footHeight": 0.3,
+                        "footWidth": 1.5,
+                        "footDepth": 1.5,
+                        "footingType": "isolated",
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "longrebar": 6,
+                        "latrebar": 6,
+                        "rebarkilo": "useformula"
+                    },
+                    {
+                        "footname": "F-2",
+                        "footHeight": 0.25,
+                        "footWidth": 1.6,
+                        "footDepth": 1.6,
+                        "footingType": "combined",
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "longrebar": 6,
+                        "latrebar": 6,
+                        "rebarkilo": "useformula"
+                    }
+                ],
+                "column": [
+                    {
+                        "colname": "c-1",
+                        "colHeight": 3.2,
+                        "colWidth": 0.4,
+                        "colDepth": 0.4,
+                        "aboveNGL": false,
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "rebarkilo": "useformula"
+                    },
+                    {
+                        "colname": "c-2",
+                        "colHeight": 6.4,
+                        "colWidth": 0.4,
+                        "colDepth": 0.4,
+                        "aboveNGL": true,
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "rebarkilo": "useformula"
+                    }
+                ],
+                "beam": [
+                    {
+                        "beamname": "b-1",
+                        "beamlength": 6.4,
+                        "beamWidth": 0.4,
+                        "beamDepth": 0.4,
+                        "aboveNGL": true,
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "topbar": 6,
+                        "botbar": 6,
+                        "webar": 0,
+                        "rebarkilo": "useformula"
+                    },
+                    {
+                        "beamname": "B-1",
+                        "beamlength": 6.4,
+                        "beamWidth": 0.4,
+                        "beamDepth": 0.4,
+                        "aboveNGL": false,
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "topbar": 6,
+                        "botbar": 6,
+                        "webar": 0,
+                        "rebarkilo": "useformula"
+                    }
+                ],
+                "slab": [
+                    {
+                        "slabname": "S-1",
+                        "slabHeight": 0.3,
+                        "slabWidth": 1.5,
+                        "slabDepth": 1.5,
+                        "slabType": "one-way",
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "longrebar": 6,
+                        "latrebar": 6,
+                        "rebarkilo": "useformula"
+                    },
+                    {
+                        "footname": "S-2",
+                        "footHeight": 0.25,
+                        "footWidth": 1.6,
+                        "footDepth": 1.6,
+                        "footingType": "combined",
+                        "rebars": "16mm",
+                        "volume": "1.5x1.5x0.3",
+                        "longrebar": 6,
+                        "latrebar": 6,
+                        "rebarkilo": "useformula"
+                    }
+                ]
+            },
+            "architectural": {
+                "walls":[
+                    {
+                        "gridLocation": "A"
+                    }
+                ]
+            }
+        }
+    }
+]
