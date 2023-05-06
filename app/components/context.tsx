@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Context = () => {
     return (
-        <ul role="list" className="divide-y divide-gray-100 h-[50vh] overflow-auto">
+        <ul role="list" className="divide-y b-[2px] divide-gray-100 h-[50vh] overflow-auto scrollbar-thin scrollbar-rounded scrollbar-track-white scrollbar-thumb-gray-400">
             <li className="flex justify-between gap-x-6 py-5">
                 <div className="flex gap-x-4">
                     <div className='logo ml-1'>A</div>
@@ -19,7 +19,7 @@ export const Context = () => {
                         </div>
                         <p className="text-xs leading-5 text-gray-500">Online</p>
                     </div>
-                </div>
+                </div> 
             </li>
             <li className="flex justify-between gap-x-6 py-5">
                 <div className="flex gap-x-4">
